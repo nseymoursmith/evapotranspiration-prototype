@@ -13,5 +13,12 @@ Something like this:
 
 ```mermaid
 flowchart LR
-    DB<-- CRUD API & RO API <-- web front end
+    db["DB: Info on plants' evapotranspiration"]
+    crud["Private CRUD API - can modify db"]
+    nocrud["Read-only API - can only read from db"]
+    frontend["Frontend - allows users to navigate data"]
+
+    db<-->crud
+    db-->nocrud
+    nocrud --> frontend
 ```
