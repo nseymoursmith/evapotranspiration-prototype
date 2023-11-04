@@ -9,8 +9,8 @@ Similar advice is available from government sources on a subscription basis, mos
 
 # TODOs
 
-- [ ] Build a decent docker template for the rust API
-- [ ] Set up CI to deploy to digitalocean droplet using ssh and docker
+- [✓] Build a decent docker template for the rust API [KN 4/11/23]
+- [] Set up CI to deploy to digitalocean droplet using ssh and docker
 
 # User flow
 
