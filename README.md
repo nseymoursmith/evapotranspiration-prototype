@@ -9,8 +9,7 @@ Similar advice is available from government sources on a subscription basis, mos
 
 # TODOs
 
-- [✓] Build a decent docker template for the rust API [KN 4/11/23]
-- [] Set up CI to deploy to digitalocean droplet using ssh and docker
+See https://github.com/nseymoursmith/waterlogged-prototype/issues
 
 # User flow
 
