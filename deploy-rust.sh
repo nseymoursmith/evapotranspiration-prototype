@@ -14,7 +14,8 @@ if [ $? != 0 ]; then
     exit 1
 fi
 
-./target/release/api-example &
+# If you don't pipe stderr/out to null then github's CI will never exit!
+./target/release/api-example > /dev/null 2>&1 &
 
 # Capture PID of last executed command with `$!`
 # and use it to generate a kill script
