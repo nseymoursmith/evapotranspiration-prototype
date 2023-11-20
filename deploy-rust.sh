@@ -8,7 +8,7 @@ if ! [ -d "$HOME/waterlogged-prototype/dockerised-rust-api/" ]; then
 fi
 
 cd $HOME/waterlogged-prototype/dockerised-rust-api/
-cargo build --release
+/root/.cargo/bin/cargo build --release
 if [ $? != 0 ]; then
     echo "cargo  build failed, check the server logs!"
     exit 1
