@@ -21,3 +21,4 @@ fi
 echo "kill $!" > ../stop-api.sh
 
 chmod +x ../stop-api.sh
+exit 0
