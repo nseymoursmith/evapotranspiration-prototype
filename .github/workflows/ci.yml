@@ -3,7 +3,8 @@ run-name: Deploy to DigitalOcean by @${{ github.actor }}
 on:
   push:
     branches:
-      - main, fix-ci
+      - main
+      - fix-ci
 
 jobs:
   deploy:
