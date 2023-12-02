@@ -18,3 +18,11 @@ async fn main() {
         .run(([0, 0, 0, 0], port))
         .await;
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn exploration() {
+        assert_eq!(2 + 2, 4);
+    }
+}
